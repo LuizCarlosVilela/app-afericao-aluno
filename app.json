@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Carteira de Acessibilidade",
+    "slug": "carteira-acessibilidade",
+    "version": "0.0.1",
+    "entryPoint": "./src/App.tsx",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#ffffff",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "br.com.carteiraacessibilidade",
+      "versionCode": 4,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB7XNXgtUdsAycoVpEKNk_Z6qfjIW5SRAk"
+        }
+      },
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
